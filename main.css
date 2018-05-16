@@ -1,0 +1,98 @@
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background: rgb(49, 47, 47);
+    color: rgb(120, 132, 145);
+    margin-bottom: 25px;
+    padding-left: 25px;
+    margin: 25px;
+}
+
+.logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 25px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.nav-container {
+    width: 300px;
+    padding: 25px 50px;
+    background-color: rgb(68, 86, 26);
+    margin: 25px;
+    margin-right: 50px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;   
+}
+
+a {
+    color: coral;
+    text-decoration: none;
+}
+
+main {
+    margin: 75px;
+}
+
+.hero-images {
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+.article-parent {
+    max-width: 1400px;
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: space-between
+}
+
+.article-one, .article-two, .article-three {
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 30%;   
+}
+
+h3 {
+    font-size: 20px;
+    padding: 20px;
+    color: darkgreen;
+}
+
+.image-one, .image-two, .image-three {
+    padding: 5px;
+    margin: 0 6px 2px 0;
+    height: 80px;
+    width: 80px;
+    float: left;
+}
+
+.read-more {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    margin-left: 20%;
+    
+}
+
+.footer {
+    background-color: dimgray;
+    height: 50px;
+    line-height: 50px;
+    color: white; 
+    margin: 25px;   
+}
+
+.footer p {
+    margin-left: 50px;
+}
